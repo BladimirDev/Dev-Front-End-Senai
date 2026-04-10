@@ -1,0 +1,40 @@
+:root{
+    --cor-fundo:#ffffcb;
+    --barra-título2: #FF9900;
+    --fundo-lista: #daff95;
+}
+
+body{
+    background-image: url(ex/torta_limao_backS.png), url(ex/torta_limao_backI.png);
+    background-color: var(--cor-fundo);
+    background-position: center top, center bottom;
+    background-repeat: repeat-x, repeat-x;
+    max-width: 700px;
+    margin: auto;
+    padding: 50px;
+}
+
+h1{
+    color:#FF9900;
+}
+
+h2{
+    background-color: var(--barra-título2);
+    color: white;
+    padding: 5px;
+    margin: 0;
+}
+ul.receita{
+    background-color: var(--fundo-lista);
+    list-style-image: url(ex/torta_limao_item1.gif);
+    padding-top: 10px;
+    margin: 0;
+    border-radius: 0 0 20px 20px;
+}
+ul ul{
+    list-style-image: url(ex/torta_limao_item2.gif);
+}
+
+ul ul ul{
+    list-style-image: url(ex/torta_limao_item3.gif);
+}
