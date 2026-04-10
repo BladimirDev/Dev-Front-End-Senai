@@ -1,0 +1,46 @@
+/* link: #004552
+link
+mouse-over: #ffa700
+link visitado: #c9e0e5
+régua: #7faeb7 */ 
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2{
+    background-color: #7faeb7;
+    padding: 10px;
+}
+
+p{
+    font-weight: bold;
+}
+
+a{
+    color: #004552;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #ffa700;
+}
+
+hr{
+    border: solid 3px #7faeb7;
+}
+
+.botoes img{
+    border: solid 5px white;
+}
+
+.botoes img:hover{
+    border: solid 5px #ffa700
+}
+
+.botoes img:first-child:hover{
+    border-radius: 20px 0 0 20px;
+}
+.botoes img:last-child:hover{
+    border-radius: 0 20px 20px 0;
+}
