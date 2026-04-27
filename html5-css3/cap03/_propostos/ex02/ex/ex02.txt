@@ -9,4 +9,4 @@ Para colocarmos parágrafos, usamos os elementos "p" e "/p". Para fazer uma queb
 Imagens
 foto de livro com imagem
 
-Uma imagem aparece na janela do navegador pelo uso do elemento "img". Esse elemento possui o atributo "src", responsável pela localização da imagem. Para trabalhar melhor com a imagem, você pode colocá-la dentro das tags de marcação de parágrafo.
+Uma imagem aparece na janela do navegador pelo uso do elemento "img". Esse elemento possui o atributo "src", responsável pela localização da imagem. Para trabalhar melhor com a imagem, você pode colocá-la dentro das tags de marcação de parágrafojjjjjjjjjjj.
