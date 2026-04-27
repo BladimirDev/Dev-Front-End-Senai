@@ -1,44 +1,144 @@
+:root{
+    --bg: rgb(12, 12, 12);
+    --primary-text: white;
+    --secundary: rgb(68, 68, 205);
+    --text-cinza:rgb(195, 195, 195);
+    --item-bg: rgb(67, 67, 67);
+}
+
 *{
-    padding: 0;
     margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+
+.material-symbols-outlined {
+    color: white;
+
+    font-variation-settings:
+    'FILL' 1,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 24;
+}
+
+#dev-ico{
+    color: var(--secundary);
+    font-size: 60px;
+}
+#calendary-ico{
+    color: var(--text-cinza);
+    font-size: 17px;
 }
 
 body{
     font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
+    background-color: var(--bg)
 }
 
 header{
-    background: black;
-    padding: 10vw;
+    width: 70vw;
+    margin: auto;
+    margin-top: 30px;
 }
-header h1{
-    color: white;
+
+h1{
+    color: var(--primary-text);
+}
+
+header p{
+    color: var(--text-cinza);
+}
+
+header div.top{
+    gap: 20px;
+}
+article{
+    display: flex;
+    flex-wrap: wrap;
+    width: 85vw;
+    margin: auto;
+    justify-content: center;
+}
+section.bloco{
+    border: 1px var(--text-cinza) solid;
+    max-width: 350px;
+    margin: 7px;
+    border-radius: 10px;
+    padding: 10px;
+    transition: all 0.3s ease-in-out;
+}
+section.bloco:hover{
+    box-shadow: 0px 1px 5px #646464;
+}
+.top, .foot{
+    display: flex;
+    align-items: center;
+}
+
+main .top .data{
+    align-items: center;
+}
+
+main .top{
+    display: flex;
+    justify-content: space-between;
+}
+.data{
+    display: flex;
+    color: var(--text-cinza);
+}
+
+.mid{
+    margin: 20px 0;
+}
+
+.mid p{
+    color: var(--text-cinza);
+}
+
+.foot-item{
+    background-color: var(--item-bg);
+    font-size: 12px;
+    padding: 1vw;
+    border-radius: 7px;
+    margin-left: 10px;
+    text-transform: uppercase;
+}
+
+.id{
+    color: var(--secundary);
 }
 
 a{
-    color: rgb(255, 255, 255);
-    text-decoration: none;
-    list-style: none;
+    color: var(--primary-text)
 }
 
-a:visited{
-    color: rgb(180, 180, 180);
-}
-
-ul{
-    padding: 7vw 2vw;
-    background-color: rgb(66, 66, 66);
-    border-radius: 3vw;
-    margin: 10vw auto;
-    line-height: 5vw;
-    max-width: 400px;
-}
-
-#imagem-separador{
-    height: 40vw;
-    max-height: 300px;
+#img-mid{
+    height: 200px;
     background: black url(html5-css3/multimidia/fundo-site-inicial.png) no-repeat fixed center top;
     background-size: cover;
-    margin: 3vw 0;
+    margin: 20px 0;
+}
+
+.fora-curso{
+    width: 85vw;
+    margin: auto;
+}
+
+.fora-curso p{
+    color: var(--text-cinza);
+}
+
+footer{
+    border-top: 1px var(--text-cinza) solid;
+    width: 70vw;
+    margin: auto;
+    padding: 30px;
+    text-align: center;
+}
+
+footer p{
+    color: var(--text-cinza);   
 }
