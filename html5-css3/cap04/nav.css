@@ -1,0 +1,20 @@
+
+nav{
+    margin: 30px 0;
+}
+
+#nav{
+    display: flex;
+}
+
+#nav a {
+    padding: 0 10px;
+    border-right: 1px black solid;
+}
+
+#nav :last-of-type{
+    border: none;
+}
+h3{
+    font-size: 24px;
+}
