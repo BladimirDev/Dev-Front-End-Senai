@@ -23,3 +23,11 @@ article:last-of-type{
 article:last-of-type img{
     width: 100%;
 }
+
+.soPequeno{
+    display: none;
+}
+
+.soGrande{
+    display: none;
+}

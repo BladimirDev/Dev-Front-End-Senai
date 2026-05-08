@@ -10,15 +10,23 @@ article{
     width: 30%;
 }
 
-#article-center{
-    margin-left: 4%;
-    margin-right: 4%;
-}
-
 article img{
     max-width: 100%;
 }
 
+article:last-of-type{
+    width: 100%;
+    float: left;
+}
+
 article:last-of-type img{
     margin-bottom: 20%;
+}
+
+.soMedio{
+    display: none;
+}
+
+.soPequeno{
+    display: none;
 }

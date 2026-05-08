@@ -14,3 +14,11 @@ article{
 article img{
     max-width: 100%;
 }
+
+.soMedio{
+    display: none;
+}
+
+.soGrande{
+    display: none;
+}
