@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device", initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Media Querries</title>
     <style>
         body{
@@ -14,25 +14,26 @@
 
         article{
             float: left;
-            width: 30%;
-        }
-
-        #article-center{
-            margin-left: 4%;
-            margin-right: 4%;
+            width: 45%;
+            margin: auto 2.5%;
         }
 
         article img{
             max-width: 100%;
         }
 
+        article:last-of-type{
+            width: 95%;
+            float: none;
+            margin: auto;
+        }
         article:last-of-type img{
-            margin-bottom: 20%;
+            width: 100%;
         }
     </style>
 </head>
 <body>
-    <h1>Tela grande: min. 680px</h1>
+    <h1 class="soMeio">Tela grande: min. 680px</h1>
     <article>
         <img src="multimidia/ron-mueck-1.JPG" alt="ron mueck, máscaras II, 2001">
         <h2>Lorem ipsum dolor sit amet</h2>

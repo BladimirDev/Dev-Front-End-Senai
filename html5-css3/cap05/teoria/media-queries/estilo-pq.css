@@ -1,0 +1,16 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;  
+    width: 90%;
+    max-width: 1800px;
+    margin: auto;
+}
+
+article{
+    float: none;
+    width: 90%;
+    margin: auto;
+}
+
+article img{
+    max-width: 100%;
+}
